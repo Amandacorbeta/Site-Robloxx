@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+background-color:rgb(210, 178, 250)
+
+}
+
+.profile{
+    width:700px;
+    height: 190px;
+}
+
+#welcome{
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(226,203,100,1) 38%, rgba(0,227,152,1) 45%, rgba(0,201,244,1) 49%, rgba(0,212,255,1) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+
+}
+h1 {
+    font-size:40px;
+   
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+   
+}
+h2{
+font: size 30px;
+font-weight:300;
+
+
+}
+#bio{
+    
+    padding: 50px;
+}
+.line{
+    height: 4px;
+    background-color:rgba(32, 207, 238, 0.719);
+    width: 55px;
+    margin:8px auto;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align: middle;
+
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    top:0px;
+    
+    cursor:pointer;
+    background:white;
+    width: 100%
+    
+
+
+    
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right:25px;
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
+.links:hover {
+    font-size:25px;
+    text-decoration:underline;
+}
+#jogos a{
+    text-decoration: none;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+#videos iframe{
+    width: 80%;
+
+}
+.myNavbar{
+    position: sticky;
+    top:0;
+    
+    
+}
+.myNavbar a{
+    font-size: 20px;
+
+}
